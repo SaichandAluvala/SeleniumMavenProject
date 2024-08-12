@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">  
+	<!-- suite level groups for all classes and tests
+	
+		<groups>
+		
+		<run>
+			<include name="windows.smoke"></include>
+		</run>
+	</groups>
+	
+	-->
+
+  <test thread-count="5" name="Test">  
+	  
+	  <groups> 
+		  <define name="dailyBuild">
+			  <include name="smoke"></include>
+			  <include name="regression"></include>
+	      </define>
+	      <define name="weeklyBuild">
+			  <include name="smoke"></include>
+			  <include name="functional"></include>
+			  <include name="regression"></include>
+
+		  </define>
+		  <run>
+			  <include name="dailyBuild"></include>
+			
+		  </run>
+		   
+	  </groups>
+    <classes>
+		 <class name="CrossBrowser_Package.Chrome_Selenium1"/>
+         <class name="CrossBrowser_Package.Edge_Selenium2"/>
+         <class name="CrossBrowser_Package.Firefox_Selenium3"/>
+     
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite --> 
