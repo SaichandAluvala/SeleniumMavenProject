@@ -81,7 +81,7 @@ public class CrossBrowserTest {
 	        driver.findElement(By.id("password")).sendKeys(password);
 	        driver.findElement(By.id("submit")).click();
 	         
-	        Thread.sleep(2000); 
+	        Thread.sleep(2000);  
 	        
 	           String Expected_Url="https://practicetestautomation.com/logged-in-successfully/"; 
 	     

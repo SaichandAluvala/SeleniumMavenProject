@@ -50,7 +50,7 @@ public static void main(String[] args) throws IOException {
 					
 			}).apply(); 
 
-	
+	 
 /*		
 	//manually write test status
 	ExtentTest test1=extentreports.createTest("Test 1"); 

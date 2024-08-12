@@ -5,10 +5,8 @@
   <test name="ChromeTest">
 	  <parameter name="browser" value="chrome"></parameter>  
     <classes>  
-      <class name="Main_CrossBrowser.CrossBrowserTest"/>  
-          
-      
-    </classes>        
+      <class name="Main_CrossBrowser.CrossBrowserTest"/>    
+    </classes>          
     </test>      
       
      <test name="FirefoxTest">    

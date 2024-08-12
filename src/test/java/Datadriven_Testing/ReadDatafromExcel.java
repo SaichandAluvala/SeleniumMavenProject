@@ -28,7 +28,7 @@ public class ReadDatafromExcel {
 		
 		int rowcount=sheet.getPhysicalNumberOfRows();
 		
-		
+		 
 		XSSFRow row=sheet.getRow(rowcount-1);
 		int cellcount=row.getPhysicalNumberOfCells();
 		
