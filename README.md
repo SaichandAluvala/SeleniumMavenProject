@@ -24,6 +24,7 @@ Before you begin, ensure you have the following installed:
 - [Apache Maven](https://maven.apache.org/install.html)
 - [Google Chrome](https://www.google.com/chrome/) (or another web browser of your choice)
 - [ChromeDriver](https://sites.google.com/a/chromium.org/chromedriver/) (or the appropriate WebDriver for your browser)
+- Cucumber install
 
 ## Setup Instructions
 
